@@ -1,3 +1,4 @@
+
 public class ArraySum {
     /**
      * This method should return the sum of all ints in an array - this is a very useful trick to know!
@@ -6,8 +7,13 @@ public class ArraySum {
      * @param arr an array of ints
      * @return the sum of all values in arr.
      */
-    public int sum(int[] arr){
-
-        return 0;
+    int add = 0;  
+int[] arr = {1,2,3,4}; 
+    public int sum(int[] arr){ 
+        for (int i = 0; i < arr.length; i++) {  
+           add = add + arr[i]; 
+        }
+     
+        return add;
     }
 }
